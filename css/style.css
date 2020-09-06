@@ -1,0 +1,155 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
+
+
+
+/*global css here*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body,h1,h2,h3,h4,h5,h6,span,p,input,button{
+	font-family: 'Playfair Display', serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/*header part css*/
+
+.header{
+	width: 100%;
+}
+.navbar{
+	margin: 20px 0px;
+}
+.nav-item{
+	margin-left: 50px;
+}
+.nav-link{
+	color: #b4ad9e !important;
+	transition: all .5s ease-in-out;
+}
+.nav-link:hover{
+	color: #000 !important;
+	transition: all .5s ease-in-out;
+}
+
+/*single blog post css*/
+
+.single-blog{
+	width: 100%;
+}
+
+.blog-des{
+   margin: 60PX;
+}
+.blog-des span{
+   color: #b4ad9e !important;
+   
+}
+.blog-des h1{
+	margin: 18px 0px;
+}
+
+.blog-des p{
+    margin-bottom: 30px !important;
+}
+
+/*blog gallery section css*/
+
+.blog-gallery{
+	width: 100%;
+	padding: 60px;
+}
+.post{
+	
+}
+.post span{
+     color: #b4ad9e;
+}
+.post h2{
+	margin: 18px 0px;
+}
+.post img {
+	margin-bottom: 30px;
+}
+.post a{
+	color: #b4ad9e;
+}
+.blog-gallery .col-md-6{
+	margin-bottom: 70px;
+	padding: 0 30px;
+}
+
+/*subscribtion section css*/
+
+.subscribe{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 60px 0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.subscribe h1{
+	font-weight: 500px !important;
+	margin-bottom: 30px;
+}
+form input{
+	padding: 20px 0px 10px 0px;
+	width: 40%;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+	top: 26px;
+	right: 31%;
+
+}
+.load-more{
+	margin: 40px 0px 100px 0px;
+	text-align: center !important;
+}
+.load-more button{
+	padding: 18px 40px;
+	border: 1px solid black;
+	background: transparent;
+	font-size: 20px;
+    color: #b4ad9e;
+}
+
+/*footer section css*/
+
+.footer{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 30px 0px;
+	margin-bottom: 20px;
+}
+.footer ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+}
+.footer ul li a{
+    color: black;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.left ul li{
+    margin-right: 24px;
+}
+.right ul li{
+    margin-left: 24px;
+}
